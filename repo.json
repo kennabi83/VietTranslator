@@ -1,0 +1,20 @@
+[
+  {
+    "Author": "Yu",
+    "Name": "Viet Translator",
+    "InternalName": "VietTranslator",
+    "AssemblyVersion": "1.0.0.0",
+    "TestingAssemblyVersion": "1.0.0.0",
+    "Punchline": "Hiển thị cốt truyện FFXIV bằng tiếng Việt.",
+    "Description": "Phụ đề tiếng Việt cho thoại FFXIV: overlay ImGui render chữ có dấu chuẩn (font BeVietnam Pro), giữ nguyên tên riêng tiếng Anh. Bản v1 phủ trọn A Realm Reborn — cốt truyện chính (2.0) + hậu-ARR (2.1–2.55), nhiệm vụ Nghề & Job, mở khóa tính năng (nhà ở, chocobo, retainer…) và Duty (dungeon/trial/raid). Hoạt động cho thoại thường, cutscene, caption và menu lựa chọn.",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "RepoUrl": "https://github.com/kennabi83/VietTranslator",
+    "Tags": ["translation", "vietnamese", "story", "dialogue", "localization"],
+    "AcceptsFeedback": true,
+    "IconUrl": "https://raw.githubusercontent.com/kennabi83/VietTranslator/main/Resources/icon.png",
+    "DownloadLinkInstall": "https://github.com/kennabi83/VietTranslator/releases/latest/download/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/kennabi83/VietTranslator/releases/latest/download/latest.zip",
+    "DownloadLinkTesting": "https://github.com/kennabi83/VietTranslator/releases/latest/download/latest.zip"
+  }
+]
