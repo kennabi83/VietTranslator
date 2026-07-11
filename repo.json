@@ -12,7 +12,7 @@
     "RepoUrl": "https://viettranslator.onrender.com/",
     "Tags": ["translation", "vietnamese", "story", "dialogue", "localization"],
     "AcceptsFeedback": true,
-    "IconUrl": "https://raw.githubusercontent.com/kennabi83/VietTranslator/main/Resources/icon.png",
+    "IconUrl": "https://raw.githubusercontent.com/kennabi83/VietTranslator/main/Resources/icon.png?v=2",
     "DownloadLinkInstall": "https://github.com/kennabi83/VietTranslator/releases/latest/download/latest.zip",
     "DownloadLinkUpdate": "https://github.com/kennabi83/VietTranslator/releases/latest/download/latest.zip",
     "DownloadLinkTesting": "https://github.com/kennabi83/VietTranslator/releases/latest/download/latest.zip"
