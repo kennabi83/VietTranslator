@@ -4,7 +4,7 @@ Plugin [Dalamud](https://github.com/goatcorp/Dalamud) hiển thị **phụ đề
 Final Fantasy XIV: overlay ImGui, chữ có dấu chuẩn (font BeVietnam Pro), giữ nguyên tên riêng
 tiếng Anh để dễ tra cứu cùng cộng đồng. Bản dịch làm sẵn ngoại tuyến — **không sửa dữ liệu game**.
 
-> **Mới nhất — v1.3.4:** Sửa nốt lỗi thoại lòi tiếng Anh — những đoạn thoại dài bị game chia thành nhiều trang giờ đã khớp được bản dịch.
+> **Mới nhất — v1.3.5:** Sửa tiếp lỗi thoại lòi tiếng Anh — câu chứa tên riêng có gạch nối (E-Sumi-Yan, Y'shtola…) nay đã khớp bản dịch.
 
 ## Cài đặt
 
@@ -41,6 +41,7 @@ Trọn bộ HW: **425 nhiệm vụ, hơn 18.000 dòng thoại.**
 
 ## Lịch sử phiên bản
 
+- **v1.3.5** — Sửa lỗi khớp với câu chứa gạch nối đặc biệt. Dữ liệu gốc dùng gạch nối dài trong tên riêng ("Brother E–Sumi–Yan") còn game hiển thị gạch nối thường, khiến 490 đoạn thoại tra không ra bản dịch.
 - **v1.3.4** — Sửa lỗi thoại dài hiện nguyên tiếng Anh. Khi một câu quá dài, game tự chia hộp thoại thành nhiều trang; plugin chỉ đọc được trang đầu nên tra không ra bản dịch. Nay đã khớp được qua bảng tra riêng cho hơn 3.400 đoạn thoại dài.
 - **v1.3.3** — Sửa lỗi khớp bản dịch. Những câu thoại chứa phần thay đổi theo bối cảnh — lời chào theo giờ trong ngày ("Good morrow/day/evening"), câu đổi theo chủng tộc hoặc thành bang khởi đầu, xưng hô theo cấp bậc Grand Company — trước đây không khớp được nên hiện nguyên tiếng Anh; nay đã hiển thị tiếng Việt. Đồng thời chặn lỗi lộ mã thẻ ra khung phụ đề. Số câu khớp được tăng thêm khoảng 1.900.
 - **v1.3.2** — Cập nhật nhỏ. Bổ sung 3 nhiệm vụ mở khóa trước đây bị bỏ sót vì Square Enix xếp nhầm vào nhóm side quest: *Rock the Castrum* (trọn cutscene mở màn Castrum Meridianum — diễn văn Chiến Dịch Archon và trận Livia sas Junius), *Earning Your Wings* (mở Rival Wings) và *Every Little Thing She Does Is Mahjong* (mở mạt chược Doma ở Gold Saucer).
