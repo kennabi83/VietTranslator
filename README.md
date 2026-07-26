@@ -4,7 +4,7 @@ Plugin [Dalamud](https://github.com/goatcorp/Dalamud) hiển thị **phụ đề
 Final Fantasy XIV: overlay ImGui, chữ có dấu chuẩn (font BeVietnam Pro), giữ nguyên tên riêng
 tiếng Anh để dễ tra cứu cùng cộng đồng. Bản dịch làm sẵn ngoại tuyến — **không sửa dữ liệu game**.
 
-> **Mới nhất — v1.3.2:** Cập nhật nhỏ — bổ sung 3 nhiệm vụ mở khóa bị bỏ sót, trong đó có trọn cutscene mở màn **Castrum Meridianum**.
+> **Mới nhất — v1.3.3:** Sửa lỗi khớp bản dịch — nhiều câu thoại trước đây hiện nguyên tiếng Anh nay đã ra tiếng Việt (lời chào theo giờ trong ngày, thoại đổi theo chủng tộc/thành bang khởi đầu).
 
 ## Cài đặt
 
@@ -41,6 +41,7 @@ Trọn bộ HW: **425 nhiệm vụ, hơn 18.000 dòng thoại.**
 
 ## Lịch sử phiên bản
 
+- **v1.3.3** — Sửa lỗi khớp bản dịch. Những câu thoại chứa phần thay đổi theo bối cảnh — lời chào theo giờ trong ngày ("Good morrow/day/evening"), câu đổi theo chủng tộc hoặc thành bang khởi đầu, xưng hô theo cấp bậc Grand Company — trước đây không khớp được nên hiện nguyên tiếng Anh; nay đã hiển thị tiếng Việt. Đồng thời chặn lỗi lộ mã thẻ ra khung phụ đề. Số câu khớp được tăng thêm khoảng 1.900.
 - **v1.3.2** — Cập nhật nhỏ. Bổ sung 3 nhiệm vụ mở khóa trước đây bị bỏ sót vì Square Enix xếp nhầm vào nhóm side quest: *Rock the Castrum* (trọn cutscene mở màn Castrum Meridianum — diễn văn Chiến Dịch Archon và trận Livia sas Junius), *Earning Your Wings* (mở Rival Wings) và *Every Little Thing She Does Is Mahjong* (mở mạt chược Doma ở Gold Saucer).
 - **v1.3.1** — Sửa lỗi hiển thị tên người nói: 60 đoạn thoại bị lặp tên trong hộp thoại (vd "(-Phó Vương-)(Phó vương)"), và một đoạn giữ nhầm "???" đúng lúc nhân vật tự xưng danh tính.
 - **v1.3.0** — **Heavensward hoàn chỉnh**: thêm nhiệm vụ Nghề/Job (167), Duty (38) và mở khóa tính năng (92) — tổng 425 nhiệm vụ HW. Sửa lỗi bản dịch: khôi phục 254 chỗ mất tên người nói, 15 chỗ mất danh hiệu Grand Company, 20 chỗ mất nhấn mạnh; sửa 1 chỗ lộ mã chương trình ra hội thoại; dọn 88 thẻ điều kiện thừa.
