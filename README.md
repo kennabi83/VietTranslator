@@ -4,7 +4,7 @@ Plugin [Dalamud](https://github.com/goatcorp/Dalamud) hiển thị **phụ đề
 Final Fantasy XIV: overlay ImGui, chữ có dấu chuẩn (font BeVietnam Pro), giữ nguyên tên riêng
 tiếng Anh để dễ tra cứu cùng cộng đồng. Bản dịch làm sẵn ngoại tuyến — **không sửa dữ liệu game**.
 
-> **Mới nhất — v1.3.0:** **Heavensward hoàn chỉnh** — thêm toàn bộ nhiệm vụ Nghề/Job, Duty và mở khóa tính năng (297 nhiệm vụ mới), cùng một loạt sửa lỗi bản dịch.
+> **Mới nhất — v1.3.1:** **Heavensward hoàn chỉnh** — thêm toàn bộ nhiệm vụ Nghề/Job, Duty và mở khóa tính năng (297 nhiệm vụ mới), cùng một loạt sửa lỗi bản dịch.
 
 ## Cài đặt
 
@@ -41,6 +41,7 @@ Trọn bộ HW: **425 nhiệm vụ, hơn 18.000 dòng thoại.**
 
 ## Lịch sử phiên bản
 
+- **v1.3.1** — Sửa lỗi hiển thị tên người nói: 60 đoạn thoại bị lặp tên trong hộp thoại (vd "(-Phó Vương-)(Phó vương)"), và một đoạn giữ nhầm "???" đúng lúc nhân vật tự xưng danh tính.
 - **v1.3.0** — **Heavensward hoàn chỉnh**: thêm nhiệm vụ Nghề/Job (167), Duty (38) và mở khóa tính năng (92) — tổng 425 nhiệm vụ HW. Sửa lỗi bản dịch: khôi phục 254 chỗ mất tên người nói, 15 chỗ mất danh hiệu Grand Company, 20 chỗ mất nhấn mạnh; sửa 1 chỗ lộ mã chương trình ra hội thoại; dọn 88 thẻ điều kiện thừa.
 - **v1.1.0** — Thêm trọn bộ cốt truyện chính Heavensward (MSQ, 128 nhiệm vụ). Vá 156 đoạn thoại ARR bị dịch thiếu phần sau (lỗi ngắt trang).
 - **v1.0.1** — Sửa gạch nối ẩn, tách hộp thoại độc thoại dài, tinh chỉnh giọng nhân vật.
