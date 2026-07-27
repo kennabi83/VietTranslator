@@ -4,7 +4,7 @@ Plugin [Dalamud](https://github.com/goatcorp/Dalamud) hiển thị **phụ đề
 Final Fantasy XIV: overlay ImGui, chữ có dấu chuẩn (font BeVietnam Pro), giữ nguyên tên riêng
 tiếng Anh để dễ tra cứu cùng cộng đồng. Bản dịch làm sẵn ngoại tuyến — **không sửa dữ liệu game**.
 
-> **Mới nhất — v1.3.5:** Sửa tiếp lỗi thoại lòi tiếng Anh — câu chứa tên riêng có gạch nối (E-Sumi-Yan, Y'shtola…) nay đã khớp bản dịch.
+> **Mới nhất — v1.3.6:** NPC gọi bạn kèm cấp bậc Grand Company ("Storm Sergeant Second Class…") nay đã hiện tiếng Việt, cùng các câu nhắc tên chủng tộc, nghề nghiệp hay vật phẩm.
 
 ## Cài đặt
 
@@ -41,6 +41,7 @@ Trọn bộ HW: **425 nhiệm vụ, hơn 18.000 dòng thoại.**
 
 ## Lịch sử phiên bản
 
+- **v1.3.6** — Sửa lỗi khớp với câu chứa giá trị do game điền vào lúc chơi: cấp bậc Grand Company trong lời chào của NPC, tên chủng tộc, tên nghề và tên vật phẩm. Trước đây những câu này hiện nguyên tiếng Anh vì bản dịch không đoán trước được giá trị. Nay đã phủ 145 câu chào theo cấp bậc và toàn bộ tên chủng tộc/nghề/vật phẩm cố định.
 - **v1.3.5** — Sửa lỗi khớp với câu chứa gạch nối đặc biệt. Dữ liệu gốc dùng gạch nối dài trong tên riêng ("Brother E–Sumi–Yan") còn game hiển thị gạch nối thường, khiến 490 đoạn thoại tra không ra bản dịch.
 - **v1.3.4** — Sửa lỗi thoại dài hiện nguyên tiếng Anh. Khi một câu quá dài, game tự chia hộp thoại thành nhiều trang; plugin chỉ đọc được trang đầu nên tra không ra bản dịch. Nay đã khớp được qua bảng tra riêng cho hơn 3.400 đoạn thoại dài.
 - **v1.3.3** — Sửa lỗi khớp bản dịch. Những câu thoại chứa phần thay đổi theo bối cảnh — lời chào theo giờ trong ngày ("Good morrow/day/evening"), câu đổi theo chủng tộc hoặc thành bang khởi đầu, xưng hô theo cấp bậc Grand Company — trước đây không khớp được nên hiện nguyên tiếng Anh; nay đã hiển thị tiếng Việt. Đồng thời chặn lỗi lộ mã thẻ ra khung phụ đề. Số câu khớp được tăng thêm khoảng 1.900.
