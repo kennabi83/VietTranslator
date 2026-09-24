@@ -4,7 +4,7 @@ Plugin [Dalamud](https://github.com/goatcorp/Dalamud) hiển thị **phụ đề
 Final Fantasy XIV: overlay ImGui, chữ có dấu chuẩn (font BeVietnam Pro), giữ nguyên tên riêng
 tiếng Anh để dễ tra cứu cùng cộng đồng. Bản dịch làm sẵn ngoại tuyến — **không sửa dữ liệu game**.
 
-> **Mới nhất — v1.3.6:** NPC gọi bạn kèm cấp bậc Grand Company ("Storm Sergeant Second Class…") nay đã hiện tiếng Việt, cùng các câu nhắc tên chủng tộc, nghề nghiệp hay vật phẩm.
+> **Mới nhất — v1.6.0:** trọn bộ **Endwalker**, và lần đầu có **thoại boss trong dungeon/trial/raid** từ A Realm Reborn tới Endwalker.
 
 ## Cài đặt
 
@@ -20,27 +20,36 @@ tiếng Anh để dễ tra cứu cùng cộng đồng. Bản dịch làm sẵn n
 
 ## Phạm vi bản dịch
 
-### A Realm Reborn (2.0–2.55) — đầy đủ
-Trọn bộ ARR: **904 nhiệm vụ, hơn 30.000 dòng thoại.**
+Năm bản mở rộng đầu đã có phụ đề tiếng Việt: **2.629 nhiệm vụ · hơn 135.000 dòng thoại**, cộng
+**7.800 dòng thoại boss** trong dungeon, trial và raid.
 
-- Cốt truyện chính (MSQ) 2.0 + hậu-ARR 2.1–2.55, tới finale *The Steps of Faith*.
-- Toàn bộ nhiệm vụ Nghề & Job (Class/Job).
-- Nhiệm vụ mở khóa tính năng: nhà ở, chocobo, retainer, materia, glamour, Triple Triad, Palace of the Dead…
-- Nhiệm vụ mở khóa Duty: dungeon, trial, raid (thường / Hard / Extreme).
+| Bản mở rộng | Nhiệm vụ | Dòng thoại |
+|---|---|---|
+| A Realm Reborn (2.0–2.55) | 987 | ~39.000 |
+| Heavensward (3.0–3.5) | 448 | ~22.200 |
+| Stormblood (4.0–4.5) | 397 | ~24.700 |
+| Shadowbringers (5.0–5.5) | 366 | ~22.100 |
+| Endwalker (6.0–6.5) | 431 | ~27.000 |
 
-### Heavensward (3.0–3.5) — đầy đủ
-Trọn bộ HW: **425 nhiệm vụ, hơn 18.000 dòng thoại.**
+Mỗi bản mở rộng gồm:
 
-- Cốt truyện chính (MSQ) 3.0 + hậu-Dragonsong 3.1–3.5, trọn 128 nhiệm vụ.
-- Toàn bộ nhiệm vụ Nghề & Job (167 nhiệm vụ), gồm cả Dark Knight, Astrologian, Machinist.
-- Nhiệm vụ mở khóa Duty: Alexander, Void Ark, Warring Triad, Dun Scaith…
-- Nhiệm vụ mở khóa tính năng: Scholasticate, Hildibrand, Anima Weapons, Ishgardian Restoration…
+- **Cốt truyện chính (MSQ)** kèm các mạch hậu-expansion.
+- **Nhiệm vụ Nghề & Job**, và từ Shadowbringers có thêm **nhiệm vụ vai trò (Role)**.
+- **Nhiệm vụ mở khóa Duty**: dungeon, trial, raid, alliance raid.
+- **Nhiệm vụ mở khóa tính năng**: nhà ở, retainer, Gold Saucer, Hildibrand, Resistance Weapons, Studium…
+- **Nhiệm vụ bộ tộc (beast tribe)** của ARR, Heavensward và Stormblood: đủ 12 bộ tộc.
+- **Thoại giữa trận** trong nhiệm vụ, và **thoại boss** bên trong dungeon/trial/raid (mới ở v1.6.0).
 
-> **Ngoài phạm vi:** side quest (nhiệm vụ phụ) tạm hoãn tới giai đoạn cuối. Những dòng chưa dịch
-> sẽ hiển thị nguyên bản tiếng Anh — plugin không gây lỗi hay chặn nội dung nào.
+> **Ngoài phạm vi:** side quest (nhiệm vụ phụ) và Dawntrail. Những dòng chưa dịch sẽ hiển thị
+> nguyên bản tiếng Anh — plugin không gây lỗi hay chặn nội dung nào.
 
 ## Lịch sử phiên bản
 
+- **v1.6.0** — **Endwalker hoàn chỉnh**: cốt truyện chính, Sage & Reaper, 5 tuyến nhiệm vụ vai trò, Studium Deliveries, mở khóa Duty và tính năng. **Thoại boss trong dungeon/trial/raid** từ ARR tới Endwalker (7.800 dòng) — nguồn dữ liệu trước đây chưa từng được khai thác. Bổ sung các nhiệm vụ trước đây chưa có: hai sự kiện Gold Saucer Festivities, *By the Time You Hear This*, *Akadaemia Anyder*. Sửa lỗi: người chơi có tên trùng một từ tiếng Anh (May, Will, Hope, Ruby…) bị lòi tiếng Anh ở hàng trăm câu; tên người nói trong ngoặc `(-…-)` lọt vào phụ đề; hàng trăm câu bị rơi mất bản dịch vì trùng khóa tra; câu người chơi phải gõ vào chat nay giữ nguyên tiếng Anh kèm chú nghĩa.
+- **v1.5.2** — Thoại giữa trận Shadowbringers (316 dòng, 11 nhiệm vụ). Sửa 4 dòng đại từ cố định một giới.
+- **v1.5.1** — Nhiệm vụ bộ tộc của ARR, Heavensward, Stormblood: 69 nhiệm vụ, 12 bộ tộc.
+- **v1.5.0** — **Shadowbringers hoàn chỉnh**: 364 nhiệm vụ, gồm Bozja, Werlyt, Eden, YoRHa. Bổ sung 26 nhiệm vụ ARR bị sót vì trùng tên (có *The Ultimate Weapon*, *Operation Archon*).
+- **v1.4.1 – v1.4.8** — **Stormblood hoàn chỉnh**, thoại giữa trận (BattleTalk), và khung theo dõi nhiệm vụ tiếng Việt khi rê chuột.
 - **v1.3.6** — Sửa lỗi khớp với câu chứa giá trị do game điền vào lúc chơi: cấp bậc Grand Company trong lời chào của NPC, tên chủng tộc, tên nghề và tên vật phẩm. Trước đây những câu này hiện nguyên tiếng Anh vì bản dịch không đoán trước được giá trị. Nay đã phủ 145 câu chào theo cấp bậc và toàn bộ tên chủng tộc/nghề/vật phẩm cố định.
 - **v1.3.5** — Sửa lỗi khớp với câu chứa gạch nối đặc biệt. Dữ liệu gốc dùng gạch nối dài trong tên riêng ("Brother E–Sumi–Yan") còn game hiển thị gạch nối thường, khiến 490 đoạn thoại tra không ra bản dịch.
 - **v1.3.4** — Sửa lỗi thoại dài hiện nguyên tiếng Anh. Khi một câu quá dài, game tự chia hộp thoại thành nhiều trang; plugin chỉ đọc được trang đầu nên tra không ra bản dịch. Nay đã khớp được qua bảng tra riêng cho hơn 3.400 đoạn thoại dài.
