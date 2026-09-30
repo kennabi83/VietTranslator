@@ -4,7 +4,7 @@ Plugin [Dalamud](https://github.com/goatcorp/Dalamud) hiển thị **phụ đề
 Final Fantasy XIV: overlay ImGui, chữ có dấu chuẩn (font BeVietnam Pro), giữ nguyên tên riêng
 tiếng Anh để dễ tra cứu cùng cộng đồng. Bản dịch làm sẵn ngoại tuyến — **không sửa dữ liệu game**.
 
-> **Mới nhất — v1.6.0:** trọn bộ **Endwalker**, và lần đầu có **thoại boss trong dungeon/trial/raid** từ A Realm Reborn tới Endwalker.
+> **Mới nhất — v1.7.0:** trọn bộ **Dawntrail** tới 7.5, các sự kiện mùa 7.x, và sửa lỗi câu có tên người chơi ở giữa câu hiện nguyên tiếng Anh.
 
 ## Cài đặt
 
@@ -20,31 +20,35 @@ tiếng Anh để dễ tra cứu cùng cộng đồng. Bản dịch làm sẵn n
 
 ## Phạm vi bản dịch
 
-Năm bản mở rộng đầu đã có phụ đề tiếng Việt: **2.629 nhiệm vụ · hơn 135.000 dòng thoại**, cộng
-**7.800 dòng thoại boss** trong dungeon, trial và raid.
+Cả sáu bản mở rộng đã có phụ đề tiếng Việt: **3.059 nhiệm vụ · gần 166.000 dòng thoại**, cộng
+**10.100 dòng thoại boss** trong dungeon, trial và raid.
 
 | Bản mở rộng | Nhiệm vụ | Dòng thoại |
 |---|---|---|
-| A Realm Reborn (2.0–2.55) | 987 | ~39.000 |
+| A Realm Reborn (2.0–2.55) | 989 | ~39.000 |
 | Heavensward (3.0–3.5) | 448 | ~22.200 |
 | Stormblood (4.0–4.5) | 397 | ~24.700 |
 | Shadowbringers (5.0–5.5) | 366 | ~22.100 |
 | Endwalker (6.0–6.5) | 431 | ~27.000 |
+| Dawntrail (7.0–7.5) | 394 | ~27.900 |
+| Sự kiện mùa 7.x | 34 | ~3.000 |
 
 Mỗi bản mở rộng gồm:
 
 - **Cốt truyện chính (MSQ)** kèm các mạch hậu-expansion.
-- **Nhiệm vụ Nghề & Job**, và từ Shadowbringers có thêm **nhiệm vụ vai trò (Role)**.
+- **Nhiệm vụ Nghề & Job**, và từ Shadowbringers có thêm **nhiệm vụ vai trò (Role)**. Dawntrail có cả Beastmaster.
 - **Nhiệm vụ mở khóa Duty**: dungeon, trial, raid, alliance raid.
-- **Nhiệm vụ mở khóa tính năng**: nhà ở, retainer, Gold Saucer, Hildibrand, Resistance Weapons, Studium…
-- **Nhiệm vụ bộ tộc (beast tribe)** của ARR, Heavensward và Stormblood: đủ 12 bộ tộc.
-- **Thoại giữa trận** trong nhiệm vụ, và **thoại boss** bên trong dungeon/trial/raid (mới ở v1.6.0).
+- **Nhiệm vụ mở khóa tính năng**: nhà ở, retainer, Gold Saucer, Hildibrand, Resistance Weapons, Studium, Cosmic Exploration, Occult Crescent…
+- **Nhiệm vụ bộ tộc (beast tribe)** của ARR, Heavensward và Stormblood: đủ 12 bộ tộc. Dawntrail có các bộ tộc Pelupelu, Mamool Ja, Yok Huy…
+- **Thoại giữa trận** trong nhiệm vụ, và **thoại boss** bên trong dungeon/trial/raid (từ v1.6.0, Dawntrail thêm ở v1.7.0).
 
-> **Ngoài phạm vi:** side quest (nhiệm vụ phụ) và Dawntrail. Những dòng chưa dịch sẽ hiển thị
+> **Ngoài phạm vi:** side quest (nhiệm vụ phụ). Những dòng chưa dịch sẽ hiển thị
 > nguyên bản tiếng Anh — plugin không gây lỗi hay chặn nội dung nào.
 
 ## Lịch sử phiên bản
 
+- **v1.7.0** — **Dawntrail hoàn chỉnh tới 7.5**: cốt truyện chính (143 nhiệm vụ), Viper, Pictomancer và Beastmaster, 5 tuyến nhiệm vụ vai trò, mở khóa Duty và tính năng (Cosmic Exploration, Occult Crescent, Arcadion, Hildibrand, bộ tộc Dawntrail), cùng 2.400 dòng thoại boss. Thêm 34 nhiệm vụ sự kiện mùa 7.x. Sửa lỗi: khoảng 1.200 câu có tên người chơi ở giữa câu trước đây hiện nguyên tiếng Anh. Thuật ngữ: tên kỷ nguyên giữ tiếng Anh kèm tên Hán-Việt, ví dụ *Seventh Umbral Era (Đệ Thất Ám Kỷ)*; hơn 1.200 địa danh và tổ chức được chú tên Việt ở lần nhắc đầu mỗi nhiệm vụ.
+- **v1.6.1** — Phụ đề thoại giữa trận nằm ngay dưới khung BattleTalk, không che chân dung nhân vật và bám theo khung khi dời HUD.
 - **v1.6.0** — **Endwalker hoàn chỉnh**: cốt truyện chính, Sage & Reaper, 5 tuyến nhiệm vụ vai trò, Studium Deliveries, mở khóa Duty và tính năng. **Thoại boss trong dungeon/trial/raid** từ ARR tới Endwalker (7.800 dòng) — nguồn dữ liệu trước đây chưa từng được khai thác. Bổ sung các nhiệm vụ trước đây chưa có: hai sự kiện Gold Saucer Festivities, *By the Time You Hear This*, *Akadaemia Anyder*. Sửa lỗi: người chơi có tên trùng một từ tiếng Anh (May, Will, Hope, Ruby…) bị lòi tiếng Anh ở hàng trăm câu; tên người nói trong ngoặc `(-…-)` lọt vào phụ đề; hàng trăm câu bị rơi mất bản dịch vì trùng khóa tra; câu người chơi phải gõ vào chat nay giữ nguyên tiếng Anh kèm chú nghĩa.
 - **v1.5.2** — Thoại giữa trận Shadowbringers (316 dòng, 11 nhiệm vụ). Sửa 4 dòng đại từ cố định một giới.
 - **v1.5.1** — Nhiệm vụ bộ tộc của ARR, Heavensward, Stormblood: 69 nhiệm vụ, 12 bộ tộc.
