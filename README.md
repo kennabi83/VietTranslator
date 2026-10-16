@@ -4,7 +4,7 @@ Plugin [Dalamud](https://github.com/goatcorp/Dalamud) hiển thị **phụ đề
 Final Fantasy XIV: overlay ImGui, chữ có dấu chuẩn (font BeVietnam Pro), giữ nguyên tên riêng
 tiếng Anh để dễ tra cứu cùng cộng đồng. Bản dịch làm sẵn ngoại tuyến — **không sửa dữ liệu game**.
 
-> **Mới nhất — v1.7.1:** **side quest (nhiệm vụ phụ)** trọn bộ A Realm Reborn, Heavensward, Stormblood và Shadowbringers; phụ đề nay đọc đúng class/job và Grand Company của nhân vật.
+> **Mới nhất — v1.7.2:** **side quest (nhiệm vụ phụ)** của Endwalker và Dawntrail — từ nay side quest có đủ cả sáu bản mở rộng.
 
 ## Cài đặt
 
@@ -20,7 +20,7 @@ tiếng Anh để dễ tra cứu cùng cộng đồng. Bản dịch làm sẵn n
 
 ## Phạm vi bản dịch
 
-Cả sáu bản mở rộng đã có phụ đề tiếng Việt: **4.251 nhiệm vụ · gần 190.000 dòng thoại**, cộng
+Cả sáu bản mở rộng đã có phụ đề tiếng Việt: **4.631 nhiệm vụ · hơn 200.000 dòng thoại**, cộng
 **10.100 dòng thoại boss** trong dungeon, trial và raid.
 
 | Bản mở rộng | Nhiệm vụ | Dòng thoại |
@@ -29,8 +29,8 @@ Cả sáu bản mở rộng đã có phụ đề tiếng Việt: **4.251 nhiệm
 | Heavensward (3.0–3.5) | 740 | ~27.600 |
 | Stormblood (4.0–4.5) | 662 | ~31.400 |
 | Shadowbringers (5.0–5.5) | 643 | ~29.500 |
-| Endwalker (6.0–6.5) | 431 | ~27.000 |
-| Dawntrail (7.0–7.5) | 394 | ~27.900 |
+| Endwalker (6.0–6.5) | 662 | ~34.000 |
+| Dawntrail (7.0–7.5) | 543 | ~31.900 |
 | Sự kiện mùa 7.x | 34 | ~3.000 |
 
 Mỗi bản mở rộng gồm:
@@ -41,13 +41,14 @@ Mỗi bản mở rộng gồm:
 - **Nhiệm vụ mở khóa tính năng**: nhà ở, retainer, Gold Saucer, Hildibrand, Resistance Weapons, Studium, Cosmic Exploration, Occult Crescent…
 - **Nhiệm vụ bộ tộc (beast tribe)** của ARR, Heavensward và Stormblood: đủ 12 bộ tộc. Dawntrail có các bộ tộc Pelupelu, Mamool Ja, Yok Huy…
 - **Thoại giữa trận** trong nhiệm vụ, và **thoại boss** bên trong dungeon/trial/raid (từ v1.6.0, Dawntrail thêm ở v1.7.0).
-- **Side quest (nhiệm vụ phụ)** của A Realm Reborn, Heavensward, Stormblood và Shadowbringers (từ v1.7.1).
+- **Side quest (nhiệm vụ phụ)**: A Realm Reborn tới Shadowbringers từ v1.7.1, Endwalker và Dawntrail từ v1.7.2.
 
-> **Ngoài phạm vi:** side quest của Endwalker và Dawntrail. Những dòng chưa dịch sẽ hiển thị
-> nguyên bản tiếng Anh — plugin không gây lỗi hay chặn nội dung nào.
+> **Lưu ý:** dòng nào chưa có bản dịch sẽ hiển thị nguyên bản tiếng Anh — plugin không gây
+> lỗi hay chặn nội dung nào.
 
 ## Lịch sử phiên bản
 
+- **v1.7.2** — **Side quest Endwalker và Dawntrail**: Endwalker (233) và Dawntrail (179) — hơn 400 nhiệm vụ phụ, khoảng 12.000 dòng thoại, trải khắp Old Sharlayan, Thavnair, Garlemald, Elpis, Tuliyollal, Urqopacha, Kozama'uka, Yak T'el, Shaaloani, Heritage Found, Solution Nine và Living Memory. Từ bản này, side quest có đủ cả sáu bản mở rộng.
 - **v1.7.1** — **Side quest trọn bộ 4 bản mở rộng**: A Realm Reborn (358), Heavensward (306), Stormblood (265), Shadowbringers (277) — hơn 1.200 nhiệm vụ phụ, khoảng 25.000 dòng thoại. Phụ đề nay đọc **class/job** và **Grand Company** của nhân vật: tên class hiện đúng ("Nhận quest này với tư cách paladin"), câu rẽ theo Grand Company hiện đúng tên GC, chức danh GC hiện như trong game ("Sergeant …"). Sửa lỗi: khoảng 1.160 câu bị trống tên nhân vật; gần 390 câu người chơi nam hoặc câu chào theo giờ trong ngày trước đây hiện nguyên tiếng Anh; 27 câu Square Enix sửa chữ ở bản 7.56.
 - **v1.7.0** — **Dawntrail hoàn chỉnh tới 7.5**: cốt truyện chính (143 nhiệm vụ), Viper, Pictomancer và Beastmaster, 5 tuyến nhiệm vụ vai trò, mở khóa Duty và tính năng (Cosmic Exploration, Occult Crescent, Arcadion, Hildibrand, bộ tộc Dawntrail), cùng 2.400 dòng thoại boss. Thêm 34 nhiệm vụ sự kiện mùa 7.x. Sửa lỗi: khoảng 1.200 câu có tên người chơi ở giữa câu trước đây hiện nguyên tiếng Anh. Thuật ngữ: tên kỷ nguyên giữ tiếng Anh kèm tên Hán-Việt, ví dụ *Seventh Umbral Era (Đệ Thất Ám Kỷ)*; hơn 1.200 địa danh và tổ chức được chú tên Việt ở lần nhắc đầu mỗi nhiệm vụ.
 - **v1.6.1** — Phụ đề thoại giữa trận nằm ngay dưới khung BattleTalk, không che chân dung nhân vật và bám theo khung khi dời HUD.
