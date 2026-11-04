@@ -4,7 +4,7 @@ Plugin [Dalamud](https://github.com/goatcorp/Dalamud) hiển thị **phụ đề
 Final Fantasy XIV: overlay ImGui, chữ có dấu chuẩn (font BeVietnam Pro), giữ nguyên tên riêng
 tiếng Anh để dễ tra cứu cùng cộng đồng. Bản dịch làm sẵn ngoại tuyến — **không sửa dữ liệu game**.
 
-> **Mới nhất — v1.7.4:** **phụ đề tiếng Việt cho các đoạn phim có lồng tiếng của Dawntrail** (7.0–7.5, khoảng 6.000 câu), cùng **giọng vùng miền** cho gần 30 nhân vật.
+> **Mới nhất — v1.7.5:** **phụ đề tiếng Việt cho phim lồng tiếng của cả sáu bản mở rộng** — thêm A Realm Reborn, Heavensward, Stormblood, Shadowbringers và Endwalker (khoảng 20.400 câu), nối tiếp Dawntrail ở v1.7.4.
 
 ## Cài đặt
 
@@ -32,7 +32,7 @@ Cả sáu bản mở rộng đã có phụ đề tiếng Việt: **5.117 nhiệm
 | Endwalker (6.0–6.5) | 662 | ~34.000 |
 | Dawntrail (7.0–7.5) | 627 | ~33.600 |
 | Sự kiện mùa 7.x | 38 | ~3.400 |
-| Phim lồng tiếng Dawntrail (7.0–7.5) | — | ~6.000 |
+| Phim lồng tiếng (A Realm Reborn → Dawntrail) | — | ~26.400 |
 
 Mỗi bản mở rộng gồm:
 
@@ -49,6 +49,7 @@ Mỗi bản mở rộng gồm:
 
 ## Lịch sử phiên bản
 
+- **v1.7.5** — **Phim lồng tiếng trọn bộ sáu bản mở rộng**: các đoạn phim có giọng nói của A Realm Reborn (2.2–2.55, khoảng 1.500 câu), Heavensward (2.500), Stormblood (3.400), Shadowbringers (5.200) và Endwalker (7.800) nay có phụ đề tiếng Việt, nối tiếp Dawntrail ở v1.7.4. Xưng hô của nhân vật trong phim khớp với thoại nhiệm vụ cùng bản mở rộng (Iceheart, Haurchefant, Lucia…). Sửa lỗi: vài câu ngắn trong phim Dawntrail và thoại boss hiện dính thêm một câu không liên quan; *Chiến Binh Ánh Sáng* và *Thập Nhị Thần* thống nhất ở mọi chỗ.
 - **v1.7.4** — **Phim lồng tiếng Dawntrail**: các đoạn phim có giọng nói (cutscene lồng tiếng) từ 7.0 tới 7.5 trước đây hiện tiếng Anh vì chữ của chúng nằm riêng trong dữ liệu game, nay đã có phụ đề tiếng Việt, khoảng 6.000 câu. Các bản mở rộng cũ hơn sẽ có ở bản sau. **Giọng vùng miền cho nhân vật**: gần 30 nhân vật nay nói đúng giọng quê theo tộc và nơi sống, khoảng 1.800 dòng thoại. Dân Roegadyn và người Limsa nói giọng miền Trung, chia theo tính cách: Huế, Quảng Nam, Bình Định (*"Chu cha!"*, *"Cha chả!"*, *rứa, mô, răng*). Dân Ishgard và Dravania nói giọng Bắc (*dở hơi, chửa, ra phết*). Cách xưng hô của mỗi nhân vật nay thống nhất qua mọi nhiệm vụ. Thêm 4 nhiệm vụ sự kiện mùa 7.x. Hộp chọn hiện giữa đoạn phim (cutscene) nay hiện tiếng Việt. Khoảng 190 dòng hệ thống và lựa chọn có con số, tên vật phẩm hay tên chocobo ở giữa câu nay hiện tiếng Việt. Sửa lỗi: 128 câu thoại boss bị trống tên nhân vật, và vài câu dịch sai nghĩa.
 - **v1.7.3** — **Nhiệm vụ bộ tộc hằng ngày (daily)**: A Realm Reborn (154), Heavensward (80), Stormblood (80), Shadowbringers (84) và Dawntrail (84) — 482 nhiệm vụ, khoảng 9.400 dòng thoại, từ Amalj'aa, Sylph, Kobold, Sahagin, Ixal tới Pelupelu, Mamool Ja và Yok Huy. Từ bản này, nhiệm vụ bộ tộc có đủ cả sáu bản mở rộng. Thêm dòng hệ thống trong nhật ký nhiệm vụ và câu hỏi trong hộp chọn (A Realm Reborn tới Shadowbringers). Hộp chọn hiện câu hỏi ở trên, các lựa chọn đúng thứ tự, không còn lộ nhãn ẩn. Dòng mục tiêu có tên vật phẩm (thu hái, chế tác, vũ khí relic) nay hiện tiếng Việt theo đúng nghề đang chơi. Thuật ngữ: tên phe giữ tiếng Anh kèm tên Việt ở lần nhắc đầu, ví dụ *Resistance (Quân Kháng Chiến)*, *sin eater (kẻ ăn tội)*.
 - **v1.7.2** — **Side quest Endwalker và Dawntrail**: Endwalker (233) và Dawntrail (179) — hơn 400 nhiệm vụ phụ, khoảng 12.000 dòng thoại, trải khắp Old Sharlayan, Thavnair, Garlemald, Elpis, Tuliyollal, Urqopacha, Kozama'uka, Yak T'el, Shaaloani, Heritage Found, Solution Nine và Living Memory. Từ bản này, side quest có đủ cả sáu bản mở rộng.
