@@ -4,7 +4,7 @@ Plugin [Dalamud](https://github.com/goatcorp/Dalamud) hiển thị **phụ đề
 Final Fantasy XIV: overlay ImGui, chữ có dấu chuẩn (font BeVietnam Pro), giữ nguyên tên riêng
 tiếng Anh để dễ tra cứu cùng cộng đồng. Bản dịch làm sẵn ngoại tuyến — **không sửa dữ liệu game**.
 
-> **Mới nhất — v1.7.6.1:** bản vá **The Smith** — thoại NPC the Smith (đứng ở cửa các dungeon đầu game và trong Adventurers' Guild), các thầy và sách hướng dẫn **Hall of the Novice** nay tiếng Việt; sửa câu chỉ dẫn trong bài tập bị mất tên chiêu nên hiện tiếng Anh.
+> **Mới nhất — v1.7.7.1:** **nhật ký nhiệm vụ tiếng Việt** cho A Realm Reborn và Heavensward — bấm phím J, hộp nhận quest và hộp trả quest nay hiện tên quest, đoạn tóm tắt cốt truyện và mục tiêu bằng tiếng Việt.
 
 ## Cài đặt
 
@@ -50,6 +50,7 @@ Mỗi bản mở rộng gồm:
 
 ## Lịch sử phiên bản
 
+- **v1.7.7.1** — **Nhật ký nhiệm vụ tiếng Việt (A Realm Reborn → Heavensward)**: đoạn tóm tắt cốt truyện và mục tiêu hiện trong sổ nhật ký (phím J), hộp nhận quest và hộp trả quest, gần 10.000 câu, kèm tên tiếng Việt của khoảng 1.300 nhiệm vụ hiện màu vàng phía trên. Gồm cốt truyện chính, nhiệm vụ Nghề & Job, nhiệm vụ mở khoá tính năng và Duty; side quest sẽ có ở bản sau. Overlay nhật ký phím J luôn nằm bên phải cửa sổ, có nhãn “Mô tả quest” / “Mục tiêu”.
 - **v1.7.6.1** — Bản vá **The Smith**: khoảng 260 câu thoại của the Smith (hướng dẫn người mới, mentor, Novice Network, đăng ký Hall of the Novice), ba thầy Hall of the Novice (Master of Shields, Master of Arms, Master of Magicks) cùng lời phát thưởng, và sách hướng dẫn trong Hall. Sửa khoảng 50 câu chỉ dẫn trong trận bị mất tên chiêu (“Use Tomahawk to…”) hoặc chỉ đúng một nhánh nam/nữ nên hiện tiếng Anh.
 - **v1.7.6** — **Khung theo dõi nhiệm vụ tiếng Việt**: khoảng 5.600 dòng mục tiêu trước đây hiện tiếng Anh (phần lớn ở Shadowbringers, Endwalker và Dawntrail tới 7.x, cùng nhiệm vụ bộ tộc, side quest, Beastmaster, Occult Crescent), kể cả 108 dòng thu hái, câu cá và vũ khí relic có tên vật phẩm do game điền. **Cảnh mở đầu A Realm Reborn**: lời kể trận Carteneau, chuyến đi tới Gridania, Limsa Lominsa và Ul'dah cùng những hướng dẫn đầu game, và cảnh kết 2.0, khoảng 380 câu, trước đây bị sót vì là nhiệm vụ ẩn không có tên. Sửa lỗi: khoảng 670 câu có **họ** của nhân vật hiện nguyên tiếng Anh; câu rẽ theo **chủng tộc** và **thành bang khởi đầu** nay hiện đúng nhân vật của bạn (trước đây luôn ra nhánh Hyur/Limsa Lominsa); khoảng 200 câu có chức danh Grand Company viết hoa; câu có nút bấm bàn phím hoặc tay cầm; câu bị ô thoại tự xuống dòng sau dấu gạch; gần 200 câu trả lại đúng chỗ tên nhân vật.
 - **v1.7.5** — **Phim lồng tiếng trọn bộ sáu bản mở rộng**: các đoạn phim có giọng nói của A Realm Reborn (2.2–2.55, khoảng 1.500 câu), Heavensward (2.500), Stormblood (3.400), Shadowbringers (5.200) và Endwalker (7.800) nay có phụ đề tiếng Việt, nối tiếp Dawntrail ở v1.7.4. Xưng hô của nhân vật trong phim khớp với thoại nhiệm vụ cùng bản mở rộng (Iceheart, Haurchefant, Lucia…). Sửa lỗi: vài câu ngắn trong phim Dawntrail và thoại boss hiện dính thêm một câu không liên quan; *Chiến Binh Ánh Sáng* và *Thập Nhị Thần* thống nhất ở mọi chỗ.
